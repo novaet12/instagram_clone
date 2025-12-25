@@ -1,16 +1,20 @@
-# instagram_clone
+# Flutter Instagram Clone (Supabase + Provider)
 
-A new Flutter project.
+A simple Instagram-style Flutter app for Android using Supabase (Auth, Database, Storage) as the backend and Provider for state management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Email/password authentication
+- Username + profile creation on signup
+- Persistent session handling
+- Basic feed of posts (image + caption)
+- Clean architecture with services and providers
+- Ready to extend with likes, comments, and profile editing
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter (Dart)
+- Supabase (Auth, Postgres, Storage)
+- Provider (`ChangeNotifier`)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
